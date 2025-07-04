@@ -1,3 +1,4 @@
+<!-- generator.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +47,7 @@
                     link: link,
                     startTime: Date.now()
                 }).then(() => {
-                    const trackingLink = `${window.location.origin}/tracking.html?id=${trackingId}`;
+                    const trackingLink = `${window.location.origin}/eef/tracking.html?id=${trackingId}`;
                     loader.style.display = 'none';
                     result.innerHTML = `Tracking Image Link: <a href="${trackingLink}" target="_blank">${trackingLink}</a>`;
                 });
